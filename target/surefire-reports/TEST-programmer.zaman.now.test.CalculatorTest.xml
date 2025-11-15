@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="programmer.zaman.now.test.SampleIntegrationTest" time="0.007" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="programmer.zaman.now.test.CalculatorTest" time="0.047" tests="6" errors="0" skipped="3" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,6 +59,56 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="test1" classname="programmer.zaman.now.test.SampleIntegrationTest" time="0.002"/>
-  <testcase name="test2" classname="programmer.zaman.now.test.SampleIntegrationTest" time="0.001"/>
+  <testcase name="testAborted" classname="programmer.zaman.now.test.CalculatorTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Test dibatalkan karena bukan DEV
+	at programmer.zaman.now.test.CalculatorTest.testAborted(CalculatorTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+]]></skipped>
+    <system-out><![CDATA[Before All
+BeforEach Test
+AfterEach Test
+]]></system-out>
+  </testcase>
+  <testcase name="testDivideFailed" classname="programmer.zaman.now.test.CalculatorTest" time="0.005">
+    <system-out><![CDATA[BeforEach Test
+AfterEach Test
+]]></system-out>
+  </testcase>
+  <testcase name="testAddSuccess" classname="programmer.zaman.now.test.CalculatorTest" time="0.005">
+    <system-out><![CDATA[BeforEach Test
+AfterEach Test
+]]></system-out>
+  </testcase>
+  <testcase name="testCoomingSoon" classname="programmer.zaman.now.test.CalculatorTest" time="0.0">
+    <skipped message="public void programmer.zaman.now.test.CalculatorTest.testCoomingSoon() is @Disabled"/>
+  </testcase>
+  <testcase name="testAssumptions" classname="programmer.zaman.now.test.CalculatorTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:66)
+	at programmer.zaman.now.test.CalculatorTest.testAssumptions(CalculatorTest.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+]]></skipped>
+    <system-out><![CDATA[BeforEach Test
+AfterEach Test
+]]></system-out>
+  </testcase>
+  <testcase name="testDivideSuccess" classname="programmer.zaman.now.test.CalculatorTest" time="0.001">
+    <system-out><![CDATA[BeforEach Test
+AfterEach Test
+]]></system-out>
+  </testcase>
 </testsuite>

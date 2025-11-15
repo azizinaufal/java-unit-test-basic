@@ -1,1 +1,15 @@
 programmer\zaman\now\test\SampleIntegrationTest.class
+programmer\zaman\now\test\RandomCalculatorTest.class
+programmer\zaman\now\test\QueueTest.class
+programmer\zaman\now\test\CalculatorTest.class
+programmer\zaman\now\test\generator\SimpleDisplayNameGenerator.class
+programmer\zaman\now\test\AppTest.class
+programmer\zaman\now\test\MockTest.class
+programmer\zaman\now\test\QueueTest$WhenNew.class
+programmer\zaman\now\test\LifeCycleTest.class
+programmer\zaman\now\test\OrderedTest.class
+programmer\zaman\now\test\resolver\RandomParameterResolver.class
+programmer\zaman\now\test\SlowTest.class
+programmer\zaman\now\test\InformationTest.class
+programmer\zaman\now\test\AbstractCalculatorTest.class
+programmer\zaman\now\test\ConditionTest.class

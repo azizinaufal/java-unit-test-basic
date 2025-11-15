@@ -1,5 +1,14 @@
+D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\AbstractCalculatorTest.java
 D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\AppTest.java
 D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\CalculatorTest.java
 D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\ConditionTest.java
 D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\generator\SimpleDisplayNameGenerator.java
+D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\InformationTest.java
+D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\LifeCycleTest.java
+D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\MockTest.java
+D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\OrderedTest.java
+D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\QueueTest.java
+D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\RandomCalculatorTest.java
+D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\resolver\RandomParameterResolver.java
 D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\SampleIntegrationTest.java
+D:\CODE\Java\java-unit-test\src\test\java\programmer\zaman\now\test\SlowTest.java
